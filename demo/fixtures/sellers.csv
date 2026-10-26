@@ -1,0 +1,6 @@
+seller_id,name,location_id
+S001,Demo Supplier,L001
+S002,Demo Supplier,L002
+S003,Demo Queensland Seller,L003
+S004,Demo Ambiguous Seller,L004
+S005,Demo Missing Location,L999

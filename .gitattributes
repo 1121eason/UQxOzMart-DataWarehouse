@@ -1,0 +1,11 @@
+* text=auto
+data/reference/*.csv -text whitespace=cr-at-eol
+*.dtsx text eol=crlf
+*.dtproj text eol=crlf
+*.params text eol=crlf
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.png binary
+*.gz binary
+*.ispac binary

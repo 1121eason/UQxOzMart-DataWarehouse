@@ -1,0 +1,6 @@
+customer_id,Age,Education_level,state_name
+C001,25,Bachelors' Degree,Queensland
+C002,40,College Education,Queensland
+C003,30,Masters' Degree,New South Wales
+C004,55,Secondary School,New South Wales
+C005,35,Bachelors' Degree,Victoria

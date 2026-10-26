@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.vs/
+*.dtproj.user
+*.suo
+*.user
+ssis/**/bin/
+ssis/**/obj/
+demo/output/
+*.bak
+*.mdf
+*.ldf
+.env
+.env.*
+!.env.example

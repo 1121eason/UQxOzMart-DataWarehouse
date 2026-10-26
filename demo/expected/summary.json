@@ -1,0 +1,13 @@
+{
+  "dataset": "synthetic portfolio fixtures",
+  "order_lines": 13,
+  "units": 43,
+  "revenue": 1680.0,
+  "dimension_rows": {
+    "DimCustomer": 5,
+    "DimDate": 6,
+    "DimProduct": 6,
+    "DimSeller": 5
+  },
+  "unknown_sellers": 2
+}

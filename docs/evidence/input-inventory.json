@@ -1,0 +1,104 @@
+[
+  {
+    "input": "Assignment1.database",
+    "bytes": 1699,
+    "sha256_original": "8ef4c26673baa69896d098fa0fcae2b0a307cff3edb82453684c857d0c813043",
+    "repository_location": "ssis/Assignment1/Assignment1.database (sanitised where required)"
+  },
+  {
+    "input": "Assignment1.dtproj",
+    "bytes": 82996,
+    "sha256_original": "74b80e1964e27d641f217c85fc2870da3baa34b0f70526ec1b89d24c49596731",
+    "repository_location": "ssis/Assignment1/Assignment1.dtproj (sanitised where required)"
+  },
+  {
+    "input": "Assignment1.dtproj.user",
+    "bytes": 984,
+    "sha256_original": "ae61580eb4f80f50ac0d6876790b14bea867f15f55f3fdb1d7c470be0f05b79c",
+    "repository_location": "Excluded: user-specific Visual Studio settings"
+  },
+  {
+    "input": "Package.dtsx",
+    "bytes": 663004,
+    "sha256_original": "4a2793e897ad7c0163f9b74fcbc5ad188172d4f8aeea6146856af92cb9573e6e",
+    "repository_location": "ssis/Assignment1/Package.dtsx (sanitised where required)"
+  },
+  {
+    "input": "Project.params",
+    "bytes": 91,
+    "sha256_original": "e3f1ec57ea5841db2a2a97a0478901a5deec71793c5dcff03b433158605eca4f",
+    "repository_location": "ssis/Assignment1/Project.params (sanitised where required)"
+  },
+  {
+    "input": "Assignment1.ispac",
+    "bytes": 43188,
+    "sha256_original": "4e7f3bbe9abd2d2b501aeeeab2bf6429a675dab4076d026409d44d3e964764fb",
+    "repository_location": "archive/ssis-v99/Assignment1.ispac (sanitised)"
+  },
+  {
+    "input": "s4972258.docx",
+    "bytes": 2117913,
+    "sha256_original": "89dec354b071cb9a55fa8a611ab233a0b61e21f146144e42dc099c4dc572d0dc",
+    "repository_location": "docs/evidence/ozmart-original-report.docx"
+  },
+  {
+    "input": "s4972258.pdf",
+    "bytes": 1427981,
+    "sha256_original": "e94c0a0d1c5b5cd023f22d7bab0c15954d2348b9e84722a01889e89def137b9a",
+    "repository_location": "docs/evidence/ozmart-original-report.pdf"
+  },
+  {
+    "input": "Age_Table.csv",
+    "bytes": 862,
+    "sha256_original": "97818522d3a9cf23e5b4058ff636519771ccc972fd11da4e26e431d602719299",
+    "repository_location": "data/reference/Age_Table.csv"
+  },
+  {
+    "input": "Assginmen1_Case_BISM7233_2026s1 - Tagged.pdf",
+    "bytes": 264323,
+    "sha256_original": "3b27bcdefcebf7b176348cca09ee882a1d24cbad80a43fccc989138d605025de",
+    "repository_location": "docs/reference/case-brief.pdf"
+  },
+  {
+    "input": "Customer_Education.csv",
+    "bytes": 172,
+    "sha256_original": "b8d5d338b9997b8a29bdab633c99a089c8cd6be2bf75860d2d90a874bc1e9ad3",
+    "repository_location": "data/reference/Customer_Education.csv"
+  },
+  {
+    "input": "Data Dictionary.xlsx",
+    "bytes": 11994,
+    "sha256_original": "5f75a75a8a0c97903ca68d229bc6e92d35b87e5c6134ff813d0800afbd1461a0",
+    "repository_location": "docs/reference/source-data-dictionary.xlsx"
+  },
+  {
+    "input": "OzMart_db_ERD.png",
+    "bytes": 109269,
+    "sha256_original": "89a9901946ea725bbc636c1f039b808ebbf8f452a0ec3a1c1adb5b33a0b5f2cf",
+    "repository_location": "docs/assets/source-erd.png"
+  },
+  {
+    "input": "State_code.csv",
+    "bytes": 190,
+    "sha256_original": "29a4c16fed0543a06ac53d9407ddff4309988b861d3770dfc571f0cb9372a81a",
+    "repository_location": "data/reference/State_code.csv"
+  },
+  {
+    "input": "ozmart_db_bism7233",
+    "bytes": 112320512,
+    "sha256_original": "268f777b608c5662df701a67638d03c531501bb220a7e8137214ea50db36d415",
+    "repository_location": "data/source/ozmart-source.bak.gz (lossless gzip)"
+  },
+  {
+    "input": "seller_location.csv",
+    "bytes": 8871,
+    "sha256_original": "ba7fec836774b59692342e371597fff9f7006267dae01b8fb68c62f2bdc9b7e7",
+    "repository_location": "data/reference/seller_location.csv"
+  },
+  {
+    "input": "Assginmen1_Case_BISM7233_2026s1 (1).docx",
+    "bytes": 46890,
+    "sha256_original": "61962ddc6f9be3b7ba790d2bd4d9c80ce0de9d5d6f36e59d3452b8363bc30adf",
+    "repository_location": "docs/reference/case-brief-template.docx"
+  }
+]

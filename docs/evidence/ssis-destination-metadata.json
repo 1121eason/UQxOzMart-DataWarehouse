@@ -1,0 +1,192 @@
+{
+  "DimCustomer": [
+    {
+      "name": "CustomerKEY",
+      "ssis_type": "i4",
+      "sql_type": "int",
+      "length": null
+    },
+    {
+      "name": "customer_id",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    },
+    {
+      "name": "Age",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    },
+    {
+      "name": "Education_level",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    },
+    {
+      "name": "state_name",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    }
+  ],
+  "DimDate": [
+    {
+      "name": "DateKEY",
+      "ssis_type": "i4",
+      "sql_type": "int",
+      "length": null
+    },
+    {
+      "name": "Day",
+      "ssis_type": "i4",
+      "sql_type": "int",
+      "length": null
+    },
+    {
+      "name": "Month",
+      "ssis_type": "i4",
+      "sql_type": "int",
+      "length": null
+    },
+    {
+      "name": "Year",
+      "ssis_type": "i4",
+      "sql_type": "int",
+      "length": null
+    },
+    {
+      "name": "FullDate",
+      "ssis_type": "dbTimeStamp",
+      "sql_type": "datetime",
+      "length": null
+    }
+  ],
+  "DimProduct": [
+    {
+      "name": "ProductKEY",
+      "ssis_type": "i4",
+      "sql_type": "int",
+      "length": null
+    },
+    {
+      "name": "product_id",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    },
+    {
+      "name": "product_name",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 200
+    },
+    {
+      "name": "poduct_descriptions",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 3050
+    },
+    {
+      "name": "product_subcategorey_id",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    },
+    {
+      "name": "Product_Category_ID",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    },
+    {
+      "name": "Product_Subcategory",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    },
+    {
+      "name": "Product_Category",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    }
+  ],
+  "DimSeller": [
+    {
+      "name": "SellerKEY",
+      "ssis_type": "i4",
+      "sql_type": "int",
+      "length": null
+    },
+    {
+      "name": "state",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    },
+    {
+      "name": "name",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    },
+    {
+      "name": "seller_id",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    },
+    {
+      "name": "state_name",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    }
+  ],
+  "FactSales": [
+    {
+      "name": "order_item_id",
+      "ssis_type": "wstr",
+      "sql_type": "nvarchar",
+      "length": 50
+    },
+    {
+      "name": "ProductKEY",
+      "ssis_type": "i4",
+      "sql_type": "int",
+      "length": null
+    },
+    {
+      "name": "SellerKEY",
+      "ssis_type": "i4",
+      "sql_type": "int",
+      "length": null
+    },
+    {
+      "name": "CustomerKEY",
+      "ssis_type": "i4",
+      "sql_type": "int",
+      "length": null
+    },
+    {
+      "name": "Revenue",
+      "ssis_type": "r8",
+      "sql_type": "float",
+      "length": null
+    },
+    {
+      "name": "QuantitySold",
+      "ssis_type": "i2",
+      "sql_type": "smallint",
+      "length": null
+    },
+    {
+      "name": "DateKEY",
+      "ssis_type": "i4",
+      "sql_type": "int",
+      "length": null
+    }
+  ]
+}

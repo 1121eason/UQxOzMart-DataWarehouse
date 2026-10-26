@@ -1,0 +1,5 @@
+Year,seller_id,SupplierName,TotalQuantitySold
+2022,S001,Demo Supplier,11
+2022,S002,Demo Supplier,7
+2023,S002,Demo Supplier,7
+2023,S001,Demo Supplier,1

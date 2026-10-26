@@ -1,0 +1,6 @@
+Year,Month,state_name,OrderLines,UnitsSold,Revenue
+2022,1,Queensland,7,23,830.0
+2022,2,New South Wales,3,10,500.0
+2022,3,Victoria,1,2,60.0
+2023,1,New South Wales,1,7,280.0
+2023,1,Queensland,1,1,10.0

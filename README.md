@@ -6,6 +6,8 @@ A retail analytics project that integrates order transactions and reference file
 
 Developed from the University of Queensland BISM7233 OzMart case. The original SSIS implementation and report are preserved alongside a documented SQL reconstruction and a small, executable portfolio demo.
 
+The original fact-flow screenshot records **137,901 order lines** through a pipeline with **four dimensions and five SSIS data flows**. The portable demo adds six executable analytical queries and 13 behavioural tests on clearly labelled synthetic data.
+
 **[Architecture](docs/architecture/data-model.md) · [SSIS implementation](docs/architecture/etl.md) · [Business analysis](docs/analytics/business-questions.md) · [Run the project](docs/setup.md) · [繁體中文](README.zh-TW.md)**
 
 ## What this project demonstrates
@@ -103,7 +105,7 @@ Revenue is the source order-line total. It is **not profit**, and no conversion-
 
 ![Original SSIS fact sales flow with dimension lookups](docs/assets/etl-fact-sales.png)
 
-The [original report](docs/evidence/ozmart-original-report.pdf) contains historical screenshots of dimension loads, the fact load and the three original query outputs. These images are original evidence, not a fresh execution in this repository.
+The [original report](docs/evidence/ozmart-original-report.pdf) contains historical screenshots of dimension loads, the fact load and the three original query outputs. These images are original evidence, not a fresh execution in this repository. The [editable report](docs/evidence/ozmart-original-report.docx), [source ERD](docs/assets/source-erd.png), [case brief](docs/reference/case-brief.pdf) and [source dictionary](docs/reference/source-data-dictionary.md) are also included.
 
 The saved package has all four dimension tasks disabled and the fact task enabled. Its dimension-to-fact success constraints remain present. A clean run requires configuring connections, pointing to the included reference CSVs and enabling the dimension tasks. The [setup guide](docs/setup.md) gives the complete sequence.
 
@@ -116,6 +118,7 @@ git clone https://github.com/1121eason/UQxOzMart-DataWarehouse.git
 cd UQxOzMart-DataWarehouse
 python scripts/run_demo.py
 python -m unittest discover -s tests -v
+python scripts/verify_repository.py
 ```
 
 The demo loads clearly labelled synthetic CSV fixtures into SQLite, resolves dimension keys, checks order-line uniqueness and foreign keys, runs the **same six analytical SQL files**, and exports CSV results to `demo/output/`. It is a portable demonstration of the model and query logic; it does not execute or replace the original SSIS package.

@@ -1,0 +1,5 @@
+Year,seller_id,SupplierName,UnitsSold,UnitSharePct,CumulativeUnitSharePct
+2022,S001,Demo Supplier,11,61.111111111111114,61.111111111111114
+2022,S002,Demo Supplier,7,38.888888888888886,100.0
+2023,S002,Demo Supplier,7,87.5,87.5
+2023,S001,Demo Supplier,1,12.5,100.0
